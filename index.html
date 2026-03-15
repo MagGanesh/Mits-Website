@@ -5,15 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Future Foundations Tutoring | Mithusha — London Tutor</title>
   <meta name="description" content="Expert private tutor in Stanmore, London. Maths, Science, English, Phonics, and School Entrance preparation. PGCE qualified, 10+ years experience, Enhanced DBS checked." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- ── Sticky mobile call bar ── -->
+  <!-- ── Mobile sticky call bar ── -->
   <div class="mobile-call-bar">
     <a href="tel:07423412058" class="mobile-call-link">
-      <span class="call-icon">📞</span>
-      Call Mithusha — 07423 412058
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+      Call Mithusha &nbsp;·&nbsp; 07423 412058
     </a>
   </div>
 
@@ -22,7 +25,7 @@
     <nav class="nav container">
       <a href="#hero" class="nav-logo">
         <span class="logo-mark">FF</span>
-        <span class="logo-text">Future Foundations Tutoring</span>
+        <span class="logo-name">Future Foundations</span>
       </a>
       <button class="nav-toggle" id="nav-toggle" aria-label="Open menu">
         <span></span><span></span><span></span>
@@ -38,122 +41,180 @@
 
   <!-- ── Hero ── -->
   <section class="hero" id="hero">
+    <div class="hero-bg-pattern" aria-hidden="true">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="grid-lines"></div>
+    </div>
     <div class="container hero-inner">
       <div class="hero-text">
-        <p class="hero-eyebrow">Private Tutor · Stanmore, London</p>
-        <h1 class="hero-title">
-          Helping Every Child<br>
-          <span class="highlight">Reach Their Potential</span>
+        <p class="hero-eyebrow animate-in" style="--delay:0.1s">Private Tutor · Stanmore, London</p>
+        <h1 class="hero-title animate-in" style="--delay:0.2s">
+          Every Child<br>
+          <em>Deserves</em> to<br>
+          <span class="hero-title-accent">Excel.</span>
         </h1>
-        <p class="hero-sub">
-          Expert 1-to-1 tuition from a qualified teacher with 10+ years' experience.
-          Maths, Science, English, Phonics &amp; School Entrance preparation.
+        <p class="hero-sub animate-in" style="--delay:0.35s">
+          Expert 1-to-1 tuition from a qualified teacher with 10+ years' UK classroom experience.
+          Maths, Science, English, Phonics &amp; School Entrance — tailored to your child.
         </p>
-        <div class="hero-actions">
+        <div class="hero-actions animate-in" style="--delay:0.45s">
           <a href="tel:07423412058" class="btn btn-primary">
-            📞 Call Now — 07423 412058
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+            Call Now — 07423 412058
           </a>
-          <a href="#subjects" class="btn btn-secondary">See What I Teach</a>
+          <a href="#subjects" class="btn btn-ghost">See What I Teach</a>
         </div>
-        <p class="hero-note">In-person in Stanmore · Online across the UK</p>
+        <p class="hero-note animate-in" style="--delay:0.55s">In-person in Stanmore &nbsp;·&nbsp; Online across the UK</p>
       </div>
-      <div class="hero-image">
-        <div class="photo-circle">
-          <img src="assets/mithusha.jpg" alt="Mithusha — Future Foundations Tutoring" />
+      <div class="hero-visual animate-in" style="--delay:0.25s">
+        <div class="hero-photo-frame">
+          <div class="photo-circle">
+            <img src="assets/mithusha.jpg" alt="Mithusha — Future Foundations Tutoring" />
+          </div>
+          <div class="photo-decoration" aria-hidden="true"></div>
         </div>
-        <div class="trust-badge">
-          <span class="badge-icon">✓</span>
-          <span>Enhanced DBS Checked</span>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">10+</span>
+            <span class="stat-label">Years Teaching</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">✓</span>
+            <span class="stat-label">Enhanced DBS</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">QTS</span>
+            <span class="stat-label">PGCE Qualified</span>
+          </div>
         </div>
       </div>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
     </div>
   </section>
 
   <!-- ── About ── -->
   <section class="about section" id="about">
     <div class="container about-inner">
-      <div class="about-image">
-        <div class="photo-circle photo-circle--large">
-          <img src="assets/mithusha.jpg" alt="Mithusha — Future Foundations Tutoring" />
+      <div class="about-image reveal">
+        <div class="about-photo-wrap">
+          <div class="photo-circle photo-circle--lg">
+            <img src="assets/mithusha.jpg" alt="Mithusha" />
+          </div>
         </div>
       </div>
-      <div class="about-text">
-        <p class="section-label">About Me</p>
-        <h2 class="section-title">A Qualified Teacher Who Truly Cares</h2>
-        <p>
-          Hi, I'm Mithusha — a passionate and experienced UK school teacher based in Stanmore, London.
+      <div class="about-text reveal" style="--delay:0.15s">
+        <p class="section-label">About Mithusha</p>
+        <h2 class="section-title">A Teacher Who<br><em>Goes Further</em></h2>
+        <p class="about-lead">
+          I'm Mithusha — an experienced UK school teacher based in Stanmore, London.
           I hold a <strong>BSc in Medical Genetics</strong> from Queen Mary University of London
-          and a <strong>PGCE with Qualified Teacher Status (QTS)</strong>, giving me both the
-          academic knowledge and professional training to get the best from every student.
+          and a <strong>PGCE with Qualified Teacher Status</strong>, giving me both deep subject
+          knowledge and professional teaching expertise.
         </p>
         <p>
-          With over <strong>10 years in UK classrooms</strong>, I understand exactly what examiners
-          look for and how to build the confidence students need to succeed. My lessons are
-          tailored, focused, and always exam-smart.
+          With over 10 years in UK classrooms, I know precisely what examiners look for and how
+          to build the confidence every student needs to deliver it. My sessions are structured,
+          purposeful, and always tailored to the individual.
         </p>
-        <div class="about-chips">
-          <span class="chip">🎓 BSc Medical Genetics (QMUL)</span>
-          <span class="chip">📋 PGCE with QTS</span>
-          <span class="chip">✅ Enhanced DBS Checked</span>
-          <span class="chip">📍 Stanmore, London</span>
-          <span class="chip">💻 Online UK-Wide</span>
-          <span class="chip">⭐ 10+ Years Experience</span>
+        <div class="about-credentials">
+          <div class="credential">
+            <span class="credential-icon">🎓</span>
+            <div>
+              <strong>BSc Medical Genetics</strong>
+              <span>Queen Mary University of London</span>
+            </div>
+          </div>
+          <div class="credential">
+            <span class="credential-icon">📋</span>
+            <div>
+              <strong>PGCE with QTS</strong>
+              <span>Qualified Teacher Status</span>
+            </div>
+          </div>
+          <div class="credential">
+            <span class="credential-icon">✅</span>
+            <div>
+              <strong>Enhanced DBS Checked</strong>
+              <span>Fully verified &amp; safeguarding compliant</span>
+            </div>
+          </div>
+          <div class="credential">
+            <span class="credential-icon">📍</span>
+            <div>
+              <strong>Stanmore, London</strong>
+              <span>In-person &amp; online available</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ── Subjects ── -->
-  <section class="subjects section section--grey" id="subjects">
+  <section class="subjects section" id="subjects">
+    <div class="subjects-bg" aria-hidden="true"></div>
     <div class="container">
-      <p class="section-label centered">What I Teach</p>
-      <h2 class="section-title centered">Subjects &amp; Levels</h2>
-      <p class="section-intro">
-        From first steps in reading to GCSE exam preparation — I cover a wide range of
-        subjects and age groups, all tailored to your child's individual needs.
-      </p>
+      <div class="section-header reveal">
+        <p class="section-label centered">What I Teach</p>
+        <h2 class="section-title centered">Subjects &amp; Levels</h2>
+        <p class="section-intro">
+          From early reading to GCSE exam technique — every subject, every level,
+          always tailored to your child's pace and learning style.
+        </p>
+      </div>
       <div class="subjects-grid">
 
-        <div class="subject-card">
-          <div class="subject-icon">🔤</div>
-          <h3>Phonics &amp; Early Years</h3>
-          <p>Building strong foundations in reading and literacy from the very start.</p>
-          <span class="subject-tag">Ages 4–6</span>
+        <div class="subject-card reveal" style="--delay:0s">
+          <div class="subject-num">01</div>
+          <div class="subject-icon-wrap">🔤</div>
+          <h3>Phonics &amp;<br>Early Years</h3>
+          <p>Building strong reading and literacy foundations from the very start of a child's learning journey.</p>
+          <span class="subject-age">Ages 4–6</span>
         </div>
 
-        <div class="subject-card">
-          <div class="subject-icon">📚</div>
-          <h3>KS1 &amp; KS2</h3>
-          <p>Core subject support across Maths, English and Science for primary school children.</p>
-          <span class="subject-tag">Ages 5–11</span>
+        <div class="subject-card reveal" style="--delay:0.08s">
+          <div class="subject-num">02</div>
+          <div class="subject-icon-wrap">📚</div>
+          <h3>KS1 &amp;<br>KS2</h3>
+          <p>Core Maths, English and Science support for primary school children building essential skills.</p>
+          <span class="subject-age">Ages 5–11</span>
         </div>
 
-        <div class="subject-card">
-          <div class="subject-icon">📐</div>
-          <h3>KS3 Maths &amp; Science</h3>
-          <p>Bridging the gap from primary to secondary — building confidence before GCSEs begin.</p>
-          <span class="subject-tag">Ages 11–14</span>
+        <div class="subject-card reveal" style="--delay:0.16s">
+          <div class="subject-num">03</div>
+          <div class="subject-icon-wrap">📐</div>
+          <h3>KS3 Maths<br>&amp; Science</h3>
+          <p>Bridging primary to secondary — cementing understanding before GCSE study begins.</p>
+          <span class="subject-age">Ages 11–14</span>
         </div>
 
-        <div class="subject-card">
-          <div class="subject-icon">🔬</div>
-          <h3>GCSE Maths &amp; Biology</h3>
-          <p>Targeted GCSE preparation with a focus on exam technique and grade improvement.</p>
-          <span class="subject-tag">Ages 14–16</span>
+        <div class="subject-card subject-card--accent reveal" style="--delay:0.24s">
+          <div class="subject-num">04</div>
+          <div class="subject-icon-wrap">🔬</div>
+          <h3>GCSE Maths<br>&amp; Biology</h3>
+          <p>Targeted preparation with a focus on exam technique, mark scheme literacy, and grade uplift.</p>
+          <span class="subject-age">Ages 14–16</span>
         </div>
 
-        <div class="subject-card">
-          <div class="subject-icon">🏆</div>
-          <h3>School Entrance Exams</h3>
-          <p>Specialist preparation for 4+, 7+, 8+, and 11+ assessments into top London schools.</p>
-          <span class="subject-tag">4+ · 7+ · 8+ · 11+</span>
+        <div class="subject-card subject-card--accent reveal" style="--delay:0.32s">
+          <div class="subject-num">05</div>
+          <div class="subject-icon-wrap">🏆</div>
+          <h3>School Entrance<br>Exams</h3>
+          <p>Specialist preparation for 4+, 7+, 8+ and 11+ entry into London's top independent and grammar schools.</p>
+          <span class="subject-age">4+ · 7+ · 8+ · 11+</span>
         </div>
 
-        <div class="subject-card subject-card--cta">
-          <div class="subject-icon">💬</div>
-          <h3>Not sure?</h3>
-          <p>Get in touch and I'll advise on the best approach for your child's needs.</p>
-          <a href="tel:07423412058" class="btn btn-primary btn-sm">Call Me</a>
+        <div class="subject-card subject-card--cta reveal" style="--delay:0.4s">
+          <p>Not sure which level you need?</p>
+          <h3>Let's Talk</h3>
+          <p class="cta-sub">A quick call is all it takes. I'll advise on exactly what your child needs.</p>
+          <a href="tel:07423412058" class="btn btn-primary btn-sm">Call Me Now</a>
         </div>
 
       </div>
@@ -161,48 +222,49 @@
   </section>
 
   <!-- ── Why Choose Me ── -->
-  <section class="why section section--navy" id="why">
+  <section class="why section" id="why">
     <div class="container">
-      <p class="section-label centered light">Why Choose Me</p>
-      <h2 class="section-title centered light">The Difference That Matters</h2>
+      <div class="why-header reveal">
+        <p class="section-label centered light">Why Choose Me</p>
+        <h2 class="section-title centered light">The Difference<br><em>That Matters</em></h2>
+      </div>
       <div class="why-grid">
-
-        <div class="why-card">
+        <div class="why-card reveal" style="--delay:0s">
+          <div class="why-num">—01</div>
           <div class="why-icon">✅</div>
           <h3>Enhanced DBS Checked</h3>
-          <p>Fully verified for your peace of mind when learning in the home.</p>
+          <p>Fully safeguarding verified. Complete peace of mind for in-home sessions.</p>
         </div>
-
-        <div class="why-card">
+        <div class="why-card reveal" style="--delay:0.08s">
+          <div class="why-num">—02</div>
           <div class="why-icon">🎓</div>
           <h3>Qualified Teacher</h3>
-          <p>PGCE with QTS — professionally trained and expert in the UK curriculum.</p>
+          <p>PGCE with QTS — professionally trained and deeply expert in the UK curriculum.</p>
         </div>
-
-        <div class="why-card">
+        <div class="why-card reveal" style="--delay:0.16s">
+          <div class="why-num">—03</div>
           <div class="why-icon">🎯</div>
           <h3>Exam-Focused</h3>
-          <p>I know exactly what examiners look for and how to prepare students to deliver it.</p>
+          <p>I know exactly what markers want. Students leave sessions knowing how to deliver it.</p>
         </div>
-
-        <div class="why-card">
+        <div class="why-card reveal" style="--delay:0.24s">
+          <div class="why-num">—04</div>
           <div class="why-icon">💡</div>
-          <h3>Confidence Building</h3>
+          <h3>Confidence First</h3>
           <p>Clear explanations, patience, and encouragement — every session builds belief.</p>
         </div>
-
-        <div class="why-card">
+        <div class="why-card reveal" style="--delay:0.32s">
+          <div class="why-num">—05</div>
           <div class="why-icon">📝</div>
-          <h3>Tailored Lessons</h3>
-          <p>Every student is different. Every lesson is designed specifically for them.</p>
+          <h3>Truly Tailored</h3>
+          <p>No templates, no generic plans. Every lesson is designed for that child on that day.</p>
         </div>
-
-        <div class="why-card">
+        <div class="why-card reveal" style="--delay:0.4s">
+          <div class="why-num">—06</div>
           <div class="why-icon">🏠</div>
           <h3>Flexible &amp; Convenient</h3>
-          <p>In-person in Stanmore or online — evenings and weekends available.</p>
+          <p>Stanmore in-person or online. Evenings and weekends available.</p>
         </div>
-
       </div>
     </div>
   </section>
@@ -210,32 +272,35 @@
   <!-- ── Contact ── -->
   <section class="contact section" id="contact">
     <div class="container contact-inner">
-      <div class="contact-text">
+      <div class="contact-left reveal">
         <p class="section-label">Get In Touch</p>
-        <h2 class="section-title">Ready to Book a Session?</h2>
-        <p>
-          The best way to get started is a quick phone call. I'll find out what your child
-          needs and talk you through how I can help — no obligation.
+        <h2 class="section-title">Ready to Book<br><em>a Session?</em></h2>
+        <p class="contact-lead">
+          The best way to start is a quick, no-obligation call. I'll find out what your child
+          needs and explain how I can help — in plain terms, no pressure.
         </p>
         <a href="tel:07423412058" class="btn btn-primary btn-large">
-          📞 Call — 07423 412058
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+          Call — 07423 412058
         </a>
-        <p class="contact-note">
-          📍 Stanmore, London &nbsp;·&nbsp; 💻 Online across the UK
-        </p>
+        <p class="contact-note">📍 Stanmore, London &nbsp;·&nbsp; 💻 Online UK-Wide</p>
       </div>
-      <div class="contact-details">
+      <div class="contact-right reveal" style="--delay:0.15s">
         <div class="contact-card">
           <p class="contact-card-label">Phone</p>
           <a href="tel:07423412058" class="contact-phone">07423 412058</a>
         </div>
         <div class="contact-card">
           <p class="contact-card-label">Location</p>
-          <p>Stanmore, London<br>Also available online</p>
+          <p>Stanmore, London<br><span>Also available online</span></p>
         </div>
         <div class="contact-card">
           <p class="contact-card-label">Availability</p>
-          <p>Evenings &amp; Weekends<br>Term time &amp; Holidays</p>
+          <p>Evenings &amp; Weekends<br><span>Term time &amp; School holidays</span></p>
+        </div>
+        <div class="contact-card contact-card--highlight">
+          <p class="contact-card-label">First session</p>
+          <p>Call to discuss your child's needs — I'll take it from there.</p>
         </div>
       </div>
     </div>
@@ -248,7 +313,7 @@
         <span class="logo-mark">FF</span>
         <span>Future Foundations Tutoring</span>
       </div>
-      <p class="footer-copy">© 2026 Mithusha · Stanmore, London · Enhanced DBS Checked · PGCE with QTS</p>
+      <p class="footer-copy">© 2026 Mithusha &nbsp;·&nbsp; Stanmore, London &nbsp;·&nbsp; Enhanced DBS Checked &nbsp;·&nbsp; PGCE with QTS</p>
     </div>
   </footer>
 
