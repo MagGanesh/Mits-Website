@@ -460,6 +460,7 @@ strong { font-weight: 600; color: var(--navy); }
   align-items: center;
   gap: 1.25rem;
   margin-top: 1.25rem;
+
   background: rgba(255,255,255,0.07);
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 50px;
@@ -519,11 +520,13 @@ strong { font-weight: 600; color: var(--navy); }
     text-align: left;
     justify-content: space-between;
     align-items: center;
+    gap: 3rem;
   }
   .hero-text { max-width: 540px; }
   .hero-sub  { margin-left: 0; }
   .hero-actions { justify-content: flex-start; }
   .hero-eyebrow { text-align: left; }
+  .photo-circle { width: 190px; height: 190px; }
 }
 
 /* ── About ── */
