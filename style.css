@@ -929,3 +929,15 @@ strong { font-weight: 600; color: var(--navy); }
 .footer-links { list-style: none; padding: 0; margin: 0.25rem 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 0.4rem 1.25rem; }
 .footer-links a { font-size: 0.82rem; color: rgba(255,255,255,0.6); }
 .footer-links a:hover { color: var(--gold-light); }
+
+/* ── WhatsApp ── */
+.btn-whatsapp { background: #0E7A5F; color: #fff; }
+.btn-whatsapp:hover { background: #0B6650; }
+.page-cta .btn + .btn { margin-left: 0.5rem; }
+.contact-left .btn-whatsapp { margin-top: 0.75rem; }
+@media (max-width: 767px) {
+  .mobile-call-bar { display: flex; }
+  .mobile-call-link { flex: 1; }
+  .page-cta .btn + .btn { margin-left: 0; margin-top: 0.75rem; }
+}
+.mobile-wa-link { background: #0E7A5F; color: #fff; }
