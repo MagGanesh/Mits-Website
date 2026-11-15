@@ -851,3 +851,35 @@ strong { font-weight: 600; color: var(--navy); }
 .faq-list details p { margin-top: 0.75rem; line-height: 1.7; }
 .faq-list a { color: var(--navy); text-decoration: underline; }
 .footer-copy a { color: inherit; }
+
+/* ── Fees ── */
+.fees { background: var(--cream); }
+.fees-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  max-width: 720px;
+  margin: 2rem auto 0;
+}
+.fee-card {
+  background: #fff;
+  border: 1px solid rgba(212,168,67,0.45);
+  border-radius: 16px;
+  padding: 1.75rem;
+  text-align: center;
+}
+.fee-card--accent { background: var(--navy); color: rgba(255,255,255,0.85); }
+.fee-label {
+  font-size: 0.72rem; font-weight: 600; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--gold); margin-bottom: 0.5rem;
+}
+.fee-price {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 2.6rem; font-weight: 600; color: var(--navy); line-height: 1.1; margin-bottom: 0.5rem;
+}
+.fee-card--accent .fee-price { color: #fff; }
+.fee-price span { font-size: 1rem; font-family: 'DM Sans', sans-serif; font-weight: 400; opacity: 0.7; }
+.fees-note { text-align: center; margin-top: 1.25rem; font-size: 0.92rem; }
+.fees-note a { color: var(--navy); text-decoration: underline; }
+.areas { background: #fff; }
+.faq { background: var(--cream); }
