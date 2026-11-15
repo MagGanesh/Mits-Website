@@ -383,6 +383,7 @@ strong { font-weight: 600; color: var(--navy); }
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--gold);
+  margin-top: 0;
   margin-bottom: 0.75rem;
   display: block;
 }
@@ -806,3 +807,47 @@ strong { font-weight: 600; color: var(--navy); }
   margin: 0;
   letter-spacing: 0.02em;
 }
+
+/* ── Areas ── */
+.areas { background: var(--cream); }
+.areas-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  max-width: 760px;
+  margin: 2rem auto 0;
+  padding: 0;
+}
+.areas-list li {
+  padding: 0.5rem 1.1rem;
+  border: 1px solid rgba(212,168,67,0.45);
+  border-radius: 999px;
+  color: var(--navy);
+  font-size: 0.92rem;
+  background: #fff;
+}
+
+/* ── FAQ ── */
+.faq { background: #fff; }
+.faq-list { max-width: 760px; margin: 2rem auto 0; }
+.faq-list details {
+  border-bottom: 1px solid rgba(25,40,64,0.12);
+  padding: 1.1rem 0;
+}
+.faq-list summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--navy);
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; color: var(--gold); font-size: 1.25rem; line-height: 1; }
+.faq-list details[open] summary::after { content: "\2013"; }
+.faq-list details p { margin-top: 0.75rem; line-height: 1.7; }
+.faq-list a { color: var(--navy); text-decoration: underline; }
+.footer-copy a { color: inherit; }
