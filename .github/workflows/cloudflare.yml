@@ -1,0 +1,41 @@
+# Push to main      -> https://future-foundations-tutoring.pages.dev
+# Push other branch -> https://<branch>.future-foundations-tutoring.pages.dev (staging)
+# pages.dev copies are noindex (public/_headers). Needs repo secrets
+# CLOUDFLARE_API_TOKEN (Pages: Edit) and CLOUDFLARE_ACCOUNT_ID, and repo
+# variable PAGES_PROJECT.
+name: Deploy to Cloudflare Pages
+on:
+  push:
+  workflow_dispatch:
+concurrency:
+  group: cloudflare-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      HAS_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
+    steps:
+      - if: env.HAS_TOKEN != 'true'
+        run: echo "::notice::CLOUDFLARE_API_TOKEN is not set on this repo, so the Cloudflare deploy is skipped."
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+        env:
+          BASE_PATH: /
+          PUBLIC_SITE_URL: ${{ vars.PUBLIC_SITE_URL }}
+      - name: Check the build is a plain static site
+        run: test -f dist/index.html && test ! -e wrangler.jsonc && test ! -e wrangler.toml
+      - name: Deploy
+        if: env.HAS_TOKEN == 'true'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=${{ vars.PAGES_PROJECT }} --branch=${{ github.ref_name }}

@@ -1,0 +1,21 @@
+---
+import Icon from './Icon.astro';
+import * as c from '../content';
+import pages from '../pages.json';
+interface Props { home?: boolean }
+const { home = false } = Astro.props;
+const h = (a: string) => (home ? a : c.u(a));
+---
+<div class="mk">
+  <header class="top">
+    <a class="brand" href={c.u()}>{c.name}</a>
+    <nav aria-label="Sections"><a href={h('#teach')}>Subjects</a><a href={h('#parents')}>Parents</a><a href={h('#fees')}>Fees</a><a href={h('#faq')}>FAQ</a></nav>
+    <a href={c.tel} class="top-call"><Icon name="phone" size={18} />{c.phone}</a>
+  </header>
+  <main><slot /></main>
+  <footer class="foot">
+    <ul>{pages.map((p) => <li><a href={c.u(`${p.slug}/`)}>{p.nav.startsWith('Home') ? 'Home tutor in Harrow' : `${p.nav} tutor`}</a></li>)}</ul>
+    © 2026 {c.name} · Mithusha, private tutor in Stanmore &amp; Harrow · <a href={c.tel}>{c.phone}</a> · Enhanced DBS · PGCE with QTS
+  </footer>
+  <nav class="dock" aria-label="Contact"><a href={c.tel}><Icon name="phone" />Call</a><a href={c.whatsapp} target="_blank" rel="noopener"><Icon name="whatsapp" />WhatsApp</a></nav>
+</div>
