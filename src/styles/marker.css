@@ -150,6 +150,12 @@ footer.foot a { color: var(--mk-ink) !important; }
 .related a { text-decoration: none; }
 .related a .inked { --pen: var(--mk-blue); }
 
+/* Two columns but no room in the gutter: write the label above the photo instead. */
+@media (min-width: 901px) and (max-width: 1279px) {
+  .board-photo { padding-top: 3.6rem; }
+  .note-label { left: 0; top: .2rem; font-size: 1.4rem; }
+  .doodle-arrow { left: 9rem; top: -.2rem; width: 96px; rotate: 32deg; }
+}
 @media (max-width: 900px) {
   .top nav { display: none; }
   .board { border-width: 8px; }
