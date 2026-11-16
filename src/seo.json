@@ -1,0 +1,999 @@
+{
+ "home": {
+  "title": "English, Maths &amp; 11+ Tutor in Stanmore &amp; Harrow | Future Foundations Tutoring",
+  "desc": "Qualified teacher (PGCE, QTS) offering 1-to-1 English, Maths, Science, Phonics, SATs, 11+ and GCSE tuition in Stanmore and across Harrow. Lessons from £40/hour. 10+ years' UK classroom experience, Enhanced DBS. Call 07518 327252.",
+  "canonical": "https://magganesh.github.io/Mits-Website/",
+  "ogTitle": "English, Maths &amp; 11+ Tutor in Stanmore &amp; Harrow — Mithusha, Qualified Teacher",
+  "ogDesc": "1-to-1 tuition from a PGCE-qualified UK teacher with 10+ years' classroom experience. In person in Stanmore and Harrow, or online.",
+  "jsonld": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": [
+       "LocalBusiness",
+       "EducationalOrganization"
+      ],
+      "@id": "https://magganesh.github.io/Mits-Website/#business",
+      "name": "Future Foundations Tutoring",
+      "description": "Private 1-to-1 tuition in English, Maths, Science, Phonics and 11+ / school entrance exams from a PGCE-qualified teacher, in Stanmore, Harrow and online.",
+      "url": "https://magganesh.github.io/Mits-Website/",
+      "telephone": "+447518327252",
+      "image": "https://magganesh.github.io/Mits-Website/assets/mithusha-tutor-stanmore.jpg",
+      "priceRange": "£40–£60 per hour",
+      "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Stanmore",
+       "addressRegion": "London",
+       "addressCountry": "GB"
+      },
+      "areaServed": [
+       {
+        "@type": "AdministrativeArea",
+        "name": "London Borough of Harrow"
+       },
+       {
+        "@type": "Place",
+        "name": "Stanmore"
+       },
+       {
+        "@type": "Place",
+        "name": "Canons Park"
+       },
+       {
+        "@type": "Place",
+        "name": "Edgware"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow on the Hill"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow Weald"
+       },
+       {
+        "@type": "Place",
+        "name": "Wealdstone"
+       },
+       {
+        "@type": "Place",
+        "name": "Belmont"
+       },
+       {
+        "@type": "Place",
+        "name": "Kenton"
+       },
+       {
+        "@type": "Place",
+        "name": "Queensbury"
+       },
+       {
+        "@type": "Place",
+        "name": "Pinner"
+       },
+       {
+        "@type": "Place",
+        "name": "Hatch End"
+       },
+       {
+        "@type": "Place",
+        "name": "North Harrow"
+       },
+       {
+        "@type": "Place",
+        "name": "South Harrow"
+       },
+       {
+        "@type": "Place",
+        "name": "Rayners Lane"
+       },
+       {
+        "@type": "Place",
+        "name": "Headstone"
+       },
+       {
+        "@type": "Country",
+        "name": "United Kingdom"
+       }
+      ],
+      "founder": {
+       "@id": "https://magganesh.github.io/Mits-Website/#mithusha"
+      },
+      "hasOfferCatalog": {
+       "@type": "OfferCatalog",
+       "name": "Tuition",
+       "itemListElement": [
+        {
+         "@type": "Offer",
+         "name": "Lessons at the tutor's home in Stanmore Place",
+         "price": "40",
+         "priceCurrency": "GBP",
+         "unitText": "per hour",
+         "itemOffered": {
+          "@type": "Service",
+          "name": "1-to-1 tuition in Stanmore"
+         }
+        },
+        {
+         "@type": "Offer",
+         "name": "Online lessons",
+         "price": "40",
+         "priceCurrency": "GBP",
+         "unitText": "per hour",
+         "itemOffered": {
+          "@type": "Service",
+          "name": "1-to-1 online tuition"
+         }
+        },
+        {
+         "@type": "Offer",
+         "name": "Home visits anywhere in the London Borough of Harrow",
+         "price": "60",
+         "priceCurrency": "GBP",
+         "unitText": "per hour",
+         "itemOffered": {
+          "@type": "Service",
+          "name": "1-to-1 home tuition in Harrow"
+         }
+        },
+        {
+         "@type": "Offer",
+         "itemOffered": {
+          "@type": "Service",
+          "name": "English tuition (primary, 11+ and GCSE)"
+         }
+        },
+        {
+         "@type": "Offer",
+         "itemOffered": {
+          "@type": "Service",
+          "name": "SATs preparation"
+         }
+        },
+        {
+         "@type": "Offer",
+         "itemOffered": {
+          "@type": "Service",
+          "name": "Phonics and early reading tuition"
+         }
+        },
+        {
+         "@type": "Offer",
+         "itemOffered": {
+          "@type": "Service",
+          "name": "KS1 and KS2 Maths, English and Science tuition"
+         }
+        },
+        {
+         "@type": "Offer",
+         "itemOffered": {
+          "@type": "Service",
+          "name": "KS3 Maths and Science tuition"
+         }
+        },
+        {
+         "@type": "Offer",
+         "itemOffered": {
+          "@type": "Service",
+          "name": "GCSE English, Maths and Biology tuition"
+         }
+        },
+        {
+         "@type": "Offer",
+         "itemOffered": {
+          "@type": "Service",
+          "name": "4+, 7+, 8+ and 11+ entrance exam preparation (Maths and English)"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://magganesh.github.io/Mits-Website/#mithusha",
+      "name": "Mithusha",
+      "jobTitle": "Qualified Teacher and Private Tutor",
+      "image": "https://magganesh.github.io/Mits-Website/assets/mithusha-tutor-stanmore.jpg",
+      "alumniOf": {
+       "@type": "CollegeOrUniversity",
+       "name": "Queen Mary University of London"
+      },
+      "hasCredential": [
+       {
+        "@type": "EducationalOccupationalCredential",
+        "name": "BSc Medical Genetics"
+       },
+       {
+        "@type": "EducationalOccupationalCredential",
+        "name": "PGCE with Qualified Teacher Status (QTS)"
+       },
+       {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Enhanced DBS check"
+       }
+      ],
+      "worksFor": {
+       "@id": "https://magganesh.github.io/Mits-Website/#business"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Do you tutor English?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Yes. I teach phonics and early reading, KS1 and KS2 English (reading comprehension, spelling, grammar, punctuation and creative writing), SATs, the English papers for 4+, 7+, 8+ and 11+ entrance exams, and GCSE English."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Which subjects and levels do you teach?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Phonics and early years, KS1 and KS2 English, Maths and Science (including SATs), KS3 Maths and Science, GCSE English, Maths and Biology, and 4+, 7+, 8+ and 11+ entrance preparation in Maths and English."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Where do lessons take place?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "At my home in Stanmore Place, Stanmore, at your home anywhere in the London Borough of Harrow (including Harrow, Wealdstone, Harrow Weald, Kenton, Pinner, Hatch End, Edgware and Canons Park), or online anywhere in the UK."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How much do lessons cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Lessons at my home in Stanmore and online lessons are £40 per hour. Home visits anywhere in the London Borough of Harrow are from £60 per hour."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What qualifications do you have?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "I'm a qualified UK teacher with a PGCE and Qualified Teacher Status (QTS), a BSc in Medical Genetics from Queen Mary University of London, over 10 years' classroom experience, and an Enhanced DBS check."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "When are you available?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Evenings and weekends, during term time and school holidays."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do we get started?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Call or WhatsApp me on 07518 327252 for a no-obligation chat. I'll ask about your child, their school and their goals, then suggest a plan."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "english-tutor-stanmore-harrow": {
+  "title": "English Tutor in Stanmore &amp; Harrow | Future Foundations",
+  "desc": "1-to-1 English tuition in Stanmore and across Harrow from a PGCE-qualified teacher: phonics, reading, writing, SATs, 11+ English and GCSE English. £40/hour in Stanmore or online. Call 07518 327252.",
+  "canonical": "https://magganesh.github.io/Mits-Website/english-tutor-stanmore-harrow/",
+  "ogTitle": "English Tutor in Stanmore &amp; Harrow | Future Foundations",
+  "ogDesc": "1-to-1 English tuition in Stanmore and across Harrow from a PGCE-qualified teacher: phonics, reading, writing, SATs, 11+ English and GCSE English. £40/hour in Stanmore or online. Call 07518 327252.",
+  "jsonld": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Service",
+      "@id": "https://magganesh.github.io/Mits-Website/english-tutor-stanmore-harrow/#service",
+      "name": "English Tutor in Stanmore & Harrow",
+      "serviceType": "English tuition",
+      "description": "One-to-one English lessons from a child's first phonics sounds right through to GCSE English Language and Literature, with a qualified UK teacher. At my home in Stanmore, at yours anywhere in Harrow, or online.",
+      "url": "https://magganesh.github.io/Mits-Website/english-tutor-stanmore-harrow/",
+      "provider": {
+       "@type": [
+        "LocalBusiness",
+        "EducationalOrganization"
+       ],
+       "@id": "https://magganesh.github.io/Mits-Website/#business",
+       "name": "Future Foundations Tutoring",
+       "telephone": "+447518327252",
+       "url": "https://magganesh.github.io/Mits-Website/"
+      },
+      "areaServed": [
+       {
+        "@type": "AdministrativeArea",
+        "name": "London Borough of Harrow"
+       },
+       {
+        "@type": "Place",
+        "name": "Stanmore"
+       },
+       {
+        "@type": "Place",
+        "name": "Canons Park"
+       },
+       {
+        "@type": "Place",
+        "name": "Edgware"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow on the Hill"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow Weald"
+       },
+       {
+        "@type": "Country",
+        "name": "United Kingdom"
+       }
+      ],
+      "offers": [
+       {
+        "@type": "Offer",
+        "name": "Lessons at the tutor's home in Stanmore",
+        "price": "40",
+        "priceCurrency": "GBP"
+       },
+       {
+        "@type": "Offer",
+        "name": "Online lessons",
+        "price": "40",
+        "priceCurrency": "GBP"
+       },
+       {
+        "@type": "Offer",
+        "name": "Home visits in the London Borough of Harrow",
+        "priceCurrency": "GBP",
+        "priceSpecification": {
+         "@type": "UnitPriceSpecification",
+         "minPrice": "60",
+         "priceCurrency": "GBP",
+         "unitText": "per hour"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://magganesh.github.io/Mits-Website/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "English Tutor in Stanmore & Harrow",
+        "item": "https://magganesh.github.io/Mits-Website/english-tutor-stanmore-harrow/"
+       }
+      ]
+     },
+     {
+      "@type": "FAQPage",
+      "mainEntity": [
+       {
+        "@type": "Question",
+        "name": "What ages do you teach English to?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "From age 4 (phonics and early reading) up to age 16 (GCSE English Language and Literature)."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Do you help with SATs English?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Yes. I prepare children for the KS2 reading paper and the grammar, punctuation and spelling tests."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Can English lessons be online?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Yes. Online lessons are £40 per hour, the same as lessons at my home in Stanmore."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Where are lessons held?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "At my home in Stanmore Place, Stanmore (£40 per hour), at your home anywhere in the London Borough of Harrow (from £60 per hour), or online (£40 per hour)."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "maths-tutor-stanmore-harrow": {
+  "title": "Maths Tutor in Stanmore &amp; Harrow | Future Foundations",
+  "desc": "1-to-1 Maths tuition in Stanmore and across Harrow from a PGCE-qualified teacher: primary Maths, SATs, 11+ Maths, KS3 and GCSE Maths. £40/hour in Stanmore or online. Call 07518 327252.",
+  "canonical": "https://magganesh.github.io/Mits-Website/maths-tutor-stanmore-harrow/",
+  "ogTitle": "Maths Tutor in Stanmore &amp; Harrow | Future Foundations",
+  "ogDesc": "1-to-1 Maths tuition in Stanmore and across Harrow from a PGCE-qualified teacher: primary Maths, SATs, 11+ Maths, KS3 and GCSE Maths. £40/hour in Stanmore or online. Call 07518 327252.",
+  "jsonld": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Service",
+      "@id": "https://magganesh.github.io/Mits-Website/maths-tutor-stanmore-harrow/#service",
+      "name": "Maths Tutor in Stanmore & Harrow",
+      "serviceType": "Maths tuition",
+      "description": "One-to-one Maths lessons from early number work to GCSE, with a qualified UK teacher who builds understanding as well as exam results. At my home in Stanmore, at yours anywhere in Harrow, or online.",
+      "url": "https://magganesh.github.io/Mits-Website/maths-tutor-stanmore-harrow/",
+      "provider": {
+       "@type": [
+        "LocalBusiness",
+        "EducationalOrganization"
+       ],
+       "@id": "https://magganesh.github.io/Mits-Website/#business",
+       "name": "Future Foundations Tutoring",
+       "telephone": "+447518327252",
+       "url": "https://magganesh.github.io/Mits-Website/"
+      },
+      "areaServed": [
+       {
+        "@type": "AdministrativeArea",
+        "name": "London Borough of Harrow"
+       },
+       {
+        "@type": "Place",
+        "name": "Stanmore"
+       },
+       {
+        "@type": "Place",
+        "name": "Canons Park"
+       },
+       {
+        "@type": "Place",
+        "name": "Edgware"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow on the Hill"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow Weald"
+       },
+       {
+        "@type": "Country",
+        "name": "United Kingdom"
+       }
+      ],
+      "offers": [
+       {
+        "@type": "Offer",
+        "name": "Lessons at the tutor's home in Stanmore",
+        "price": "40",
+        "priceCurrency": "GBP"
+       },
+       {
+        "@type": "Offer",
+        "name": "Online lessons",
+        "price": "40",
+        "priceCurrency": "GBP"
+       },
+       {
+        "@type": "Offer",
+        "name": "Home visits in the London Borough of Harrow",
+        "priceCurrency": "GBP",
+        "priceSpecification": {
+         "@type": "UnitPriceSpecification",
+         "minPrice": "60",
+         "priceCurrency": "GBP",
+         "unitText": "per hour"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://magganesh.github.io/Mits-Website/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Maths Tutor in Stanmore & Harrow",
+        "item": "https://magganesh.github.io/Mits-Website/maths-tutor-stanmore-harrow/"
+       }
+      ]
+     },
+     {
+      "@type": "FAQPage",
+      "mainEntity": [
+       {
+        "@type": "Question",
+        "name": "What levels of Maths do you teach?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "KS1 and KS2 Maths including SATs, 11+ and school entrance Maths, KS3 Maths and GCSE Maths."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "My child has fallen behind in Maths. Can you help?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Yes. The first lessons focus on finding the gaps in the basics, then we build up from there at your child's pace."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Can Maths lessons be online?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Yes. Online lessons are £40 per hour, the same as lessons at my home in Stanmore."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Where are lessons held?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "At my home in Stanmore Place, Stanmore (£40 per hour), at your home anywhere in the London Borough of Harrow (from £60 per hour), or online (£40 per hour)."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "11-plus-tutor-stanmore-harrow": {
+  "title": "11+ Tutor in Stanmore &amp; Harrow | Future Foundations",
+  "desc": "1-to-1 11+, 7+, 8+ and 4+ preparation in Maths and English in Stanmore and across Harrow, from a PGCE-qualified teacher. £40/hour in Stanmore or online. Call 07518 327252.",
+  "canonical": "https://magganesh.github.io/Mits-Website/11-plus-tutor-stanmore-harrow/",
+  "ogTitle": "11+ Tutor in Stanmore &amp; Harrow | Future Foundations",
+  "ogDesc": "1-to-1 11+, 7+, 8+ and 4+ preparation in Maths and English in Stanmore and across Harrow, from a PGCE-qualified teacher. £40/hour in Stanmore or online. Call 07518 327252.",
+  "jsonld": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Service",
+      "@id": "https://magganesh.github.io/Mits-Website/11-plus-tutor-stanmore-harrow/#service",
+      "name": "11+ Tutor in Stanmore & Harrow",
+      "serviceType": "11+ and school entrance exam preparation",
+      "description": "One-to-one preparation for the Maths and English papers in 11+ and other school entrance exams (4+, 7+ and 8+) for grammar and independent schools. At my home in Stanmore, at yours anywhere in Harrow, or online.",
+      "url": "https://magganesh.github.io/Mits-Website/11-plus-tutor-stanmore-harrow/",
+      "provider": {
+       "@type": [
+        "LocalBusiness",
+        "EducationalOrganization"
+       ],
+       "@id": "https://magganesh.github.io/Mits-Website/#business",
+       "name": "Future Foundations Tutoring",
+       "telephone": "+447518327252",
+       "url": "https://magganesh.github.io/Mits-Website/"
+      },
+      "areaServed": [
+       {
+        "@type": "AdministrativeArea",
+        "name": "London Borough of Harrow"
+       },
+       {
+        "@type": "Place",
+        "name": "Stanmore"
+       },
+       {
+        "@type": "Place",
+        "name": "Canons Park"
+       },
+       {
+        "@type": "Place",
+        "name": "Edgware"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow on the Hill"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow Weald"
+       },
+       {
+        "@type": "Country",
+        "name": "United Kingdom"
+       }
+      ],
+      "offers": [
+       {
+        "@type": "Offer",
+        "name": "Lessons at the tutor's home in Stanmore",
+        "price": "40",
+        "priceCurrency": "GBP"
+       },
+       {
+        "@type": "Offer",
+        "name": "Online lessons",
+        "price": "40",
+        "priceCurrency": "GBP"
+       },
+       {
+        "@type": "Offer",
+        "name": "Home visits in the London Borough of Harrow",
+        "priceCurrency": "GBP",
+        "priceSpecification": {
+         "@type": "UnitPriceSpecification",
+         "minPrice": "60",
+         "priceCurrency": "GBP",
+         "unitText": "per hour"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://magganesh.github.io/Mits-Website/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "11+ Tutor in Stanmore & Harrow",
+        "item": "https://magganesh.github.io/Mits-Website/11-plus-tutor-stanmore-harrow/"
+       }
+      ]
+     },
+     {
+      "@type": "FAQPage",
+      "mainEntity": [
+       {
+        "@type": "Question",
+        "name": "When should my child start 11+ preparation?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Most grammar school 11+ exams are in September of Year 6, so many families start in Year 4 or Year 5. Call me if your child's exam is sooner and we'll work out a realistic plan."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Which 11+ subjects do you teach?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Maths and English, including comprehension and creative writing. If your schools also test verbal or non-verbal reasoning, tell me when we first speak."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Do you prepare children for 7+ and 8+ exams?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Yes. I prepare children for 4+, 7+, 8+ and 11+ entrance exams in Maths and English."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Can 11+ lessons be online?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Yes. Online lessons are £40 per hour, the same as lessons at my home in Stanmore."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "gcse-tutor-stanmore-harrow": {
+  "title": "GCSE Tutor in Stanmore &amp; Harrow | Future Foundations",
+  "desc": "1-to-1 GCSE English, Maths and Biology tuition in Stanmore and across Harrow, or online UK-wide, from a PGCE-qualified teacher. £40/hour. Call 07518 327252.",
+  "canonical": "https://magganesh.github.io/Mits-Website/gcse-tutor-stanmore-harrow/",
+  "ogTitle": "GCSE Tutor in Stanmore &amp; Harrow | Future Foundations",
+  "ogDesc": "1-to-1 GCSE English, Maths and Biology tuition in Stanmore and across Harrow, or online UK-wide, from a PGCE-qualified teacher. £40/hour. Call 07518 327252.",
+  "jsonld": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Service",
+      "@id": "https://magganesh.github.io/Mits-Website/gcse-tutor-stanmore-harrow/#service",
+      "name": "GCSE Tutor in Stanmore & Harrow: English, Maths & Biology",
+      "serviceType": "GCSE tuition",
+      "description": "One-to-one GCSE lessons focused on understanding the content, practising past papers and knowing exactly what examiners want. At my home in Stanmore, at yours anywhere in Harrow, or online anywhere in the UK.",
+      "url": "https://magganesh.github.io/Mits-Website/gcse-tutor-stanmore-harrow/",
+      "provider": {
+       "@type": [
+        "LocalBusiness",
+        "EducationalOrganization"
+       ],
+       "@id": "https://magganesh.github.io/Mits-Website/#business",
+       "name": "Future Foundations Tutoring",
+       "telephone": "+447518327252",
+       "url": "https://magganesh.github.io/Mits-Website/"
+      },
+      "areaServed": [
+       {
+        "@type": "AdministrativeArea",
+        "name": "London Borough of Harrow"
+       },
+       {
+        "@type": "Place",
+        "name": "Stanmore"
+       },
+       {
+        "@type": "Place",
+        "name": "Canons Park"
+       },
+       {
+        "@type": "Place",
+        "name": "Edgware"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow on the Hill"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow Weald"
+       },
+       {
+        "@type": "Country",
+        "name": "United Kingdom"
+       }
+      ],
+      "offers": [
+       {
+        "@type": "Offer",
+        "name": "Lessons at the tutor's home in Stanmore",
+        "price": "40",
+        "priceCurrency": "GBP"
+       },
+       {
+        "@type": "Offer",
+        "name": "Online lessons",
+        "price": "40",
+        "priceCurrency": "GBP"
+       },
+       {
+        "@type": "Offer",
+        "name": "Home visits in the London Borough of Harrow",
+        "priceCurrency": "GBP",
+        "priceSpecification": {
+         "@type": "UnitPriceSpecification",
+         "minPrice": "60",
+         "priceCurrency": "GBP",
+         "unitText": "per hour"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://magganesh.github.io/Mits-Website/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "GCSE Tutor in Stanmore & Harrow: English, Maths & Biology",
+        "item": "https://magganesh.github.io/Mits-Website/gcse-tutor-stanmore-harrow/"
+       }
+      ]
+     },
+     {
+      "@type": "FAQPage",
+      "mainEntity": [
+       {
+        "@type": "Question",
+        "name": "Which GCSE subjects do you teach?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "GCSE English Language, GCSE English Literature, GCSE Maths and GCSE Biology."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Do you teach GCSE online?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Yes, online anywhere in the UK, at £40 per hour."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "When should GCSE tuition start?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "The earlier the better, ideally from Year 10, but I also help students in Year 11 who want a focused push before the exams."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Where are lessons held?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "At my home in Stanmore Place, Stanmore (£40 per hour), at your home anywhere in the London Borough of Harrow (from £60 per hour), or online (£40 per hour)."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "home-tutor-harrow": {
+  "title": "Home Tutor in Harrow | Future Foundations Tutoring",
+  "desc": "A qualified teacher who comes to your home anywhere in the London Borough of Harrow for 1-to-1 English, Maths, 11+, SATs and GCSE lessons. From £60/hour. Call 07518 327252.",
+  "canonical": "https://magganesh.github.io/Mits-Website/home-tutor-harrow/",
+  "ogTitle": "Home Tutor in Harrow | Future Foundations Tutoring",
+  "ogDesc": "A qualified teacher who comes to your home anywhere in the London Borough of Harrow for 1-to-1 English, Maths, 11+, SATs and GCSE lessons. From £60/hour. Call 07518 327252.",
+  "jsonld": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Service",
+      "@id": "https://magganesh.github.io/Mits-Website/home-tutor-harrow/#service",
+      "name": "Home Tutor in Harrow",
+      "serviceType": "Home tuition in Harrow",
+      "description": "I travel to families anywhere in the London Borough of Harrow for one-to-one lessons at home, so your child learns somewhere familiar and you don't have to do the school-run twice.",
+      "url": "https://magganesh.github.io/Mits-Website/home-tutor-harrow/",
+      "provider": {
+       "@type": [
+        "LocalBusiness",
+        "EducationalOrganization"
+       ],
+       "@id": "https://magganesh.github.io/Mits-Website/#business",
+       "name": "Future Foundations Tutoring",
+       "telephone": "+447518327252",
+       "url": "https://magganesh.github.io/Mits-Website/"
+      },
+      "areaServed": [
+       {
+        "@type": "AdministrativeArea",
+        "name": "London Borough of Harrow"
+       },
+       {
+        "@type": "Place",
+        "name": "Stanmore"
+       },
+       {
+        "@type": "Place",
+        "name": "Canons Park"
+       },
+       {
+        "@type": "Place",
+        "name": "Edgware"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow on the Hill"
+       },
+       {
+        "@type": "Place",
+        "name": "Harrow Weald"
+       }
+      ],
+      "offers": [
+       {
+        "@type": "Offer",
+        "name": "Home visits in the London Borough of Harrow",
+        "priceCurrency": "GBP",
+        "priceSpecification": {
+         "@type": "UnitPriceSpecification",
+         "minPrice": "60",
+         "priceCurrency": "GBP",
+         "unitText": "per hour"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://magganesh.github.io/Mits-Website/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Home Tutor in Harrow",
+        "item": "https://magganesh.github.io/Mits-Website/home-tutor-harrow/"
+       }
+      ]
+     },
+     {
+      "@type": "FAQPage",
+      "mainEntity": [
+       {
+        "@type": "Question",
+        "name": "Which areas do you travel to?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Anywhere in the London Borough of Harrow, including Harrow, Stanmore, Wealdstone, Harrow Weald, Kenton, Pinner, Hatch End, Rayners Lane, North and South Harrow, Edgware and Canons Park."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "How much are home visits?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Home visits are from £60 per hour. Lessons at my home in Stanmore or online are £40 per hour."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Are you DBS checked?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Yes. I hold an Enhanced DBS check and I am a qualified teacher with a PGCE and QTS."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "When are you available?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Evenings and weekends, during term time and school holidays."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

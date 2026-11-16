@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+.wrangler/
+.env
+.env.*
+.lighthouse/
+.source/
+# Windows reserved name created by "> nul" in a POSIX shell
+nul

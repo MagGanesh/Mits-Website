@@ -1,0 +1,80 @@
+---
+import '../styles/marker.css';
+import { Image } from 'astro:assets';
+import Site from '../layouts/Site.astro';
+import Shell from '../components/Shell.astro';
+import Icon from '../components/Icon.astro';
+import photo from '../assets/mithusha.jpg';
+import pages from '../pages.json';
+import * as c from '../content';
+
+export function getStaticPaths() {
+  return pages.map((p) => ({ params: { slug: p.slug }, props: { p } }));
+}
+const { p } = Astro.props;
+const decode = (v: string) => v.replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ');
+const h1 = decode(p.h1);
+const [subject, place] = h1.includes(' in ') ? [h1.slice(0, h1.lastIndexOf(' in ')), h1.slice(h1.lastIndexOf(' in ') + 4)] : [h1, ''];
+const others = pages.filter((o) => o.slug !== p.slug);
+---
+<Site page={p.slug as any}>
+<Shell>
+  <section class="board hero sub">
+    <div>
+      <h1>{subject}{place && <> in <span class="swipe">{place}</span></>}</h1>
+      <p class="lede" set:html={p.lead} />
+      <div class="actions">
+        <a class="btn btn-call" href={c.tel}><Icon name="phone" />Call {c.phone}</a>
+        <a class="btn btn-wa" href={c.whatsapp} target="_blank" rel="noopener"><Icon name="whatsapp" />WhatsApp me</a>
+      </div>
+      <a class="nd" href={c.u('#parents')}><Icon name="heart" size={18} /><span><strong>{c.nextdoorStats.recommendations}</strong> parent recommendations on Nextdoor</span></a>
+    </div>
+    <div class="board-photo">
+      <div class="taped"><span class="tape" aria-hidden="true"></span><span class="tape" aria-hidden="true"></span><Image src={photo} alt="Mithusha, qualified teacher and private tutor in Stanmore" width={360} height={388} loading="eager" fetchpriority="high" /></div>
+      <ul class="ticks">{c.credentials.slice(0, 3).map((x) => <li><Icon name="check" size={22} />{x.title}</li>)}</ul>
+    </div>
+  </section>
+
+  <section class="sheet">
+    <div class="body-grid">
+      <div class="prose" set:html={p.body} />
+      <aside class="body-aside">
+        <figure class="side-note" style="margin:0">
+          <span class="tape" aria-hidden="true"></span>
+          <p>“{p.quote.text}”</p>
+          <p class="who">{p.quote.name} · {p.quote.area} · via Nextdoor</p>
+        </figure>
+        <a class="more" href={c.u('#parents')}>More notes from parents <Icon name="arrow" size={18} /></a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="sheet" id="fees" aria-labelledby="fees-h">
+    <h2 id="fees-h">Fees, <span class="inked" style="--pen:var(--mk-blue)">worked out</span></h2>
+    <ul class="sum-list">
+      {c.fees.map((f) => <li><span class="lhs">1 hour {f.where.replace(/^At/, 'at').replace(/^Online/, 'online')}</span><span class="eq">=</span><span class="rhs">{f.price}</span><span class="sum-note">{f.note}</span></li>)}
+    </ul>
+    <p class="hours">{c.hours}</p>
+  </section>
+
+  <section class="sheet faq" id="faq" aria-labelledby="faq-h">
+    <svg class="doodle qmark" viewBox="0 0 100 140" aria-hidden="true"><path d="M22 40 C 20 12, 78 4, 80 36 C 82 60, 50 62, 50 88" stroke-width="7" /><path d="M49 112 C 51 114, 52 118, 49 120" stroke-width="9" /></svg>
+    <h2 id="faq-h">{decode(p.nav)}: questions parents ask</h2>
+    {p.faq.map(([q, a]) => <details><summary>{q}</summary><p>{a}</p></details>)}
+  </section>
+
+  <section class="sheet" aria-labelledby="also-h">
+    <h2 id="also-h">Also on the board</h2>
+    <ul class="related">{others.map((o) => <li><a href={c.u(`${o.slug}/`)}><span class="inked">{decode(o.h1).split(' in ')[0]}</span></a></li>)}</ul>
+  </section>
+
+  <section class="board close">
+    <h2>Let's have a <span class="swipe">quick chat</span></h2>
+    <p>No obligation. Tell me about your child and I'll suggest a plan.</p>
+    <div class="actions">
+      <a class="btn btn-call" href={c.tel}><Icon name="phone" />Call {c.phone}</a>
+      <a class="btn btn-wa" href={c.whatsapp} target="_blank" rel="noopener"><Icon name="whatsapp" />WhatsApp me</a>
+    </div>
+  </section>
+</Shell>
+</Site>
