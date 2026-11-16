@@ -1,0 +1,36 @@
+---
+// Served by Cloudflare Pages with a real 404 status for unknown addresses.
+// Without this file Pages falls back to the homepage with 200 (soft 404s).
+import '../styles/marker.css';
+import Shell from '../components/Shell.astro';
+import Icon from '../components/Icon.astro';
+import pages from '../pages.json';
+import * as c from '../content';
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const decode = (v: string) => v.replace(/&amp;/g, '&');
+---
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page not found | Future Foundations Tutoring</title>
+    <meta name="robots" content="noindex" />
+    <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
+  </head>
+  <body>
+    <Shell>
+      <section class="board close">
+        <h1>That page has been <span class="swipe">rubbed off the board</span></h1>
+        <p>The page you asked for isn't here. Try one of these, or get in touch.</p>
+        <div class="actions">
+          <a class="btn btn-call" href={c.u()}>Go to the homepage</a>
+          <a class="btn btn-wa" href={c.whatsapp} target="_blank" rel="noopener"><Icon name="whatsapp" />WhatsApp me</a>
+        </div>
+      </section>
+      <section class="sheet">
+        <ul class="related">{pages.map((o) => <li><a href={c.u(`${o.slug}/`)}><span class="inked">{decode(o.h1).split(' in ')[0]}</span></a></li>)}</ul>
+      </section>
+    </Shell>
+  </body>
+</html>
