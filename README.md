@@ -5,12 +5,18 @@ client JavaScript.
 
 | Where | Address | Deploys |
 |-------|---------|---------|
-| GitHub Pages (indexed by Google today) | https://magganesh.github.io/Mits-Website/ | every push to `main` |
-| Cloudflare Pages | https://future-foundations-tutoring.pages.dev | every push to `main` |
+| Live (Cloudflare Pages) | https://futurefoundationstutoring.co.uk | every push to `main` |
 | Staging | https://&lt;branch&gt;.future-foundations-tutoring.pages.dev | every push to any other branch |
 
-The pages.dev addresses send `X-Robots-Tag: noindex` so Google only indexes
-the public address.
+- `www.` and `http://` redirect (301) to https://futurefoundationstutoring.co.uk
+  (Cloudflare redirect rule on the zone).
+- The old address https://magganesh.github.io/Mits-Website/ redirects (301)
+  page-for-page to the new domain: GitHub Pages stays enabled with the custom
+  domain set, purely for that redirect. Don't disable Pages or remove its
+  custom domain.
+- The pages.dev addresses send `X-Robots-Tag: noindex`.
+- DNS: Cloudflare (zone on Mags's account); registrar: Porkbun.
+- Canonical address: repo variable `PUBLIC_SITE_URL`.
 
 ## Change the site
 
@@ -29,12 +35,3 @@ Push a branch to get a staging link, merge to `main` to publish.
   (absolute URLs are written `{SITE}…`)
 - Look and feel: `src/styles/marker.css`; rules in `DESIGN.md`
 - Product brief: `PRODUCT.md`
-
-## Moving to a custom domain
-
-1. Domain DNS on Cloudflare; add the domain to the Pages project.
-2. Set the repo variable `PUBLIC_SITE_URL` to the new address (with a
-   trailing slash) and re-run both workflows. Canonicals, Open Graph,
-   structured data, sitemap and robots.txt all follow it.
-3. Redirect the old GitHub Pages address to the new one, then submit the new
-   sitemap in Search Console.

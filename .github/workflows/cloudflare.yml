@@ -1,4 +1,4 @@
-# Push to main      -> https://future-foundations-tutoring.pages.dev
+# Push to main      -> https://futurefoundationstutoring.co.uk (and future-foundations-tutoring.pages.dev)
 # Push other branch -> https://<branch>.future-foundations-tutoring.pages.dev (staging)
 # pages.dev copies are noindex (public/_headers). Needs repo secrets
 # CLOUDFLARE_API_TOKEN (Pages: Edit) and CLOUDFLARE_ACCOUNT_ID, and repo

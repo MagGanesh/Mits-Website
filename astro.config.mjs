@@ -4,9 +4,8 @@ import { defineConfig } from 'astro/config';
 // Two addresses, both set by environment so moving domain is a one-line change:
 // PUBLIC_SITE_URL  the address Google should index. Canonicals, Open Graph,
 //                  structured data, sitemap and robots.txt all use it.
-// BASE_PATH        the folder this build is served from: '/' on Cloudflare
-//                  Pages or a custom domain, '/Mits-Website' on GitHub Pages.
-const publicUrl = (process.env.PUBLIC_SITE_URL || 'https://magganesh.github.io/Mits-Website/').replace(/\/?$/, '/');
+// BASE_PATH        the folder this build is served from (default '/').
+const publicUrl = (process.env.PUBLIC_SITE_URL || 'https://futurefoundationstutoring.co.uk/').replace(/\/?$/, '/');
 const base = process.env.BASE_PATH || '/';
 
 export default defineConfig({
