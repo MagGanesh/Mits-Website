@@ -10,7 +10,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview --port 4321",
-    "lighthouse": "node scripts/lighthouse.mjs"
+    "lighthouse": "node scripts/lighthouse.mjs",
+    "icons": "node scripts/make-icons.mjs public/favicon.svg public"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.5",
